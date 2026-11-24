@@ -1,0 +1,5 @@
+modelo,validación,R2,RMSE,MAE
+Abrams + edad,Aleatoria,0.731,8.45,6.29
+Abrams + edad,Por grupos,0.732,8.426,6.279
+Random Forest,Aleatoria,0.92,4.603,3.264
+Random Forest,Por grupos,0.882,5.589,3.824
