@@ -92,7 +92,9 @@ fig.add_trace(go.Scatter(x=EDADES_CURVA, y=curva - RMSE_TIPICO, mode="lines",
                          name=f"±{RMSE_TIPICO} MPa", hoverinfo="skip"))
 fig.add_trace(go.Scatter(x=EDADES_CURVA, y=curva, mode="lines+markers",
                          name="Predicción"))
-fig.update_xaxes(type="log", title="Edad (días, escala log)")
+fig.update_xaxes(type="log", title="Edad (días, escala log)",
+                 tickvals=EDADES_CURVA,
+                 ticktext=[str(e) for e in EDADES_CURVA])
 fig.update_yaxes(title="Resistencia (MPa)", rangemode="tozero")
 fig.update_layout(title="Desarrollo de resistencia de esta mezcla")
 st.plotly_chart(fig, width="stretch")

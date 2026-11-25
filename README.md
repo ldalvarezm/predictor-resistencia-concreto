@@ -1,5 +1,9 @@
 # Predictor de resistencia a compresión del concreto
 
+[![Abrir la app](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://predictor-concreto.streamlit.app/)
+
+**App en línea:** https://predictor-concreto.streamlit.app/
+
 Modelo de machine learning que estima la resistencia a compresión del concreto (MPa) a partir de la dosificación y la edad, con validación por grupos de mezcla, interpretabilidad con SHAP y una app interactiva.
 
 **Autor:** Luis Daniel Alvarez Medina · [LinkedIn](https://www.linkedin.com/in/luis-daniel-alvarez-medina-10a0ab2a2) 
@@ -69,6 +73,10 @@ streamlit run app/app.py
 ## Datos y referencias
 
 Yeh, I-C. (1998). Modeling of strength of high-performance concrete using artificial neural networks. *Cement and Concrete Research*, 28(12). Dataset de UCI Machine Learning Repository, licencia CC BY 4.0.
+
+## Licencia
+
+Código bajo licencia MIT (ver `LICENSE`). Los datos proceden del UCI Machine Learning Repository (Yeh, 1998) y se distribuyen bajo CC BY 4.0: si los reutilizas, cita la fuente.
 
 ## Próximos pasos
 
